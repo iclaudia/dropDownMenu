@@ -14,14 +14,8 @@
 <img class="shacity" src="images/logo.jpg" alt="logo-shacity">
 </a>
 
-<div class="dropdown">
-<button type="button" name="show-menu" class="btn-on">
-<img src="images/burger.svg" alt="menu icon" class="burgermenu">
-</button>
-</div>
-
-<nav class="nav"
-<ul>
+<nav>
+<ul class="nav">
 <li><a href="#" class="home"><span></span>Home</a></li>
 <li><a href="#" class="team"><span></span>Team</a></li>
 <li><a href="#" class="services"><span></span>Services</a></li>
@@ -29,14 +23,18 @@
 </ul>
 </nav>
 
-<div class="hiddenMenu">
-<ul class="open">
-<li ><a href="#" class="home"><span></span>Home</a></li>
-<li ><a href="#" class="team"><span></span>Team</a></li>
-<li ><a href="#" class="services"><span></span>Services</a></li>
-<li ><a href="#" class="contact"><span></span>Contact</a></li>
+<button type="button" name="show-menu" class="btn-off">
+<img src="images/burger.svg" alt="menu icon" class="burgermenu">
+</button>
+
+<nav class="hiddenMenu">
+<ul class="hiddenList">
+<li ><a href="#" class="hide"><span></span>Home</a></li>
+<li ><a href="#" class="hide"><span></span>Team</a></li>
+<li ><a href="#" class="hide"><span></span>Services</a></li>
+<li ><a href="#" class="hide"><span></span>Contact</a></li>
 </ul>
-</div>
+</nav>
 
 </header>
 
@@ -59,8 +57,7 @@
 </div>
 
 
-<script type=”text/javascript” src=”main.js” charset="utf-8">
+<script src="javascript/main.js" charset="utf-8">
  </script>
 </body>
 </html>
-
