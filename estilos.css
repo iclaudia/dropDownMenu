@@ -29,6 +29,7 @@ a {
 
 .logo{
 	width:100px;
+	border:none;
 }
 
 .shacity{
@@ -55,8 +56,13 @@ section {
 	padding:20px;
 }
 
+div{
+	padding:20%;
+}
+
 @media screen and (max-width:780px ) {
 		.header{
+			position:relative;
 			display:flex;
 		}
 
@@ -71,8 +77,18 @@ section {
 		animation: show 2s;
 	}
 .hide{
-	background-color: purple;
-}
+	background-color: rgba(174,163,255,1);
+	width: 40vh;
+	text-align: center;
+	}
+
+	a {
+	 color:#fff;
+	 padding:20px;
+	 border: 1px solid gold;
+	 display:block;
+	 text-decoration: none;
+	}
 	.hiddenList{
 		list-style: none;
 		margin:0;
@@ -83,8 +99,14 @@ section {
 
 	.btn-off{
 				display: flex;
+				background:none;
+				border:none;
 			}
+ .shacity{
+	 padding: 0px;
+	 border:none;
 
+ }
 }
 
  @keyframes show {
